@@ -13,6 +13,6 @@ public:
 	static void Init();
 	static void LoadInitialState(GameState* state);
 	static void SwitchState(GameState* state);
-	static void Render();
+	static void Render(int LaneNumber);
 	static void Update();
 };

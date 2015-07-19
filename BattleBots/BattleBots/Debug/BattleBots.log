@@ -1,4 +1,3 @@
-﻿  mainGame.cpp
-c:\users\richard\documents\visual studio 2013\projects\battlebots\battlebots\maingame.cpp(10): warning C4101: 'rID' : unreferenced local variable
-c:\users\richard\documents\visual studio 2013\projects\battlebots\battlebots\maingame.cpp(23): warning C4715: 'WindowProc' : not all control paths return a value
+﻿  InGame.cpp
+c:\users\richard\documents\visual studio 2013\projects\battlebots\battlebots\ingame.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
   BattleBots.vcxproj -> C:\Users\Richard\Documents\Visual Studio 2013\Projects\BattleBots\Debug\BattleBots.exe

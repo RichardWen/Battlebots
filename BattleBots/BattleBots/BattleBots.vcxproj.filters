@@ -30,6 +30,9 @@
     <ClCompile Include="InGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameControl.h">
@@ -44,5 +47,22 @@
     <ClInclude Include="InGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Chomper.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Brawler.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Driller.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -13,6 +13,9 @@ public:
 	~Graphics();
 
 	bool Init(HWND inputWindow);
+	ID2D1RenderTarget* GetRenderTarget() {
+		return renderTarget;
+	}
 	void BeginDraw() {
 		renderTarget->BeginDraw();
 	}

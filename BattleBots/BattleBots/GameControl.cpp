@@ -22,11 +22,12 @@ void GameControl::SwitchState(GameState* newState) {
 	currentState = newState; 
 	Loading = false;
 }
-void GameControl::Render() {
+
+void GameControl::Render(int LaneNumber) {
 	if (Loading) {
 		return;
 	}
-	currentState->Render();
+	currentState->Render(LaneNumber);
 }
 void GameControl::Update() {
 	if (Loading) {

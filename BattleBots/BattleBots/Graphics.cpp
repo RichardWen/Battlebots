@@ -40,8 +40,4 @@ bool Graphics::Init(HWND windowHandle) {
 void Graphics::ClearScreen(float r, float g, float b) {
 	renderTarget->Clear(D2D1::ColorF(r, g, b));
 }
-void Graphics::DrawChomper(float x, float y, float width, float height, float r, float g, float b, float a) {
-	brush->SetColor(D2D1::ColorF(r, g, b, a));
-	renderTarget->DrawRectangle(D2D1::Rect(x, y, x + width, y + height), brush, 3.0f);
-	
-}
+
